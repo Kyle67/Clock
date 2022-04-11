@@ -38,7 +38,7 @@ namespace Clock
             // 
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 100F);
-            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.ForeColor = System.Drawing.Color.LightBlue;
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(800, 450);
