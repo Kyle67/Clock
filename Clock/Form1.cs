@@ -25,7 +25,7 @@ namespace Clock
         {
             var timeNow = DateTime.Now;
             label1.Text = timeNow.ToString("hh:mm tt");
-            var badNight = new DateTime(2000, 1, 1, 22, 0, 0);
+            var badNight = new DateTime(2000, 1, 1, 21, 0, 0);
             var badMorn = new DateTime(2000, 1, 1, 5, 0, 0);
             if (!((badMorn.TimeOfDay <= timeNow.TimeOfDay) && (timeNow.TimeOfDay < badNight.TimeOfDay)))
             {
